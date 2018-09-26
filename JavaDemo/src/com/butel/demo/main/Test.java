@@ -6,7 +6,6 @@ import com.butel.demo.thread.ThreadPoolManager;
 public class Test {
 
 	public static void main(String[] args) {
-		//sdsdsdss
 		ThreadPoolManager manager=ThreadPoolManager.getThreadPoolManager();
 		for(int i=0;i<15;i++) {
 			Thread t=new TestThread();
