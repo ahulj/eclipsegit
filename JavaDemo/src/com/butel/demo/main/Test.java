@@ -5,13 +5,13 @@ import com.butel.demo.thread.ThreadPoolManager;
 
 public class Test {
 
-	public static void main(String[] args) {
-		ThreadPoolManager manager=ThreadPoolManager.getThreadPoolManager();
-		for(int i=0;i<15;i++) {
-			Thread t=new TestThread();
-			manager.addThread(t);
-		}
-		manager.shutdown();
-	}
+//	public static void main(String[] args) {
+//		ThreadPoolManager manager=ThreadPoolManager.getThreadPoolManager();
+//		for(int i=0;i<15;i++) {
+//			Thread t=new TestThread();
+//			manager.addThread(t);
+//		}
+//		manager.shutdown();
+//	}
 
 }
