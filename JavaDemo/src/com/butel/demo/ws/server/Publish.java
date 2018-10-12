@@ -8,8 +8,7 @@ public class Publish {
 	
 		public static void main(String []args) {
 			Object implementor=new HelloServiceImpl();
-			Endpoint.publish("http://localhost:8080/hello", implementor);
-			System.out.println("服务发布成功！");
+			Endpoint.publish("http://localhost:9999/hello", implementor);
 		}
 		
 }

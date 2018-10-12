@@ -1,6 +1,6 @@
 package com.butel.demo.thread;
 
-public class TestThread extends Thread {
+public class TestThread extends Thread{
 	public static int count=0;
 	@Override
 	public void run() {
